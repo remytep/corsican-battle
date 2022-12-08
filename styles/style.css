@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Cinzel", serif;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#game-info {
+  margin: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+}
+
+#start-game {
+  font-family: "Cinzel", serif;
+  font-size: 30px;
+  padding: 30px;
+  border: none;
+  background-color: antiquewhite;
+}
+#start-game:hover {
+  background-color: bisque;
+}
+
+#turn {
+  font-size: 30px;
+  margin-top: 10px;
+}
+#messages {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+#game {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pile {
+  width: 136px;
+  height: 196px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+#middlepile {
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}
+
+#player1pile,
+#player2pile {
+  background-color: gray;
+}
+
+.players {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+small {
+  color: red;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

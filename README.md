@@ -1,4 +1,4 @@
-# Connect Four Plugin
+# Bataille Corse
 
 <img src="./img/game.png" alt="game screenshot" width="738">
 A reproduction of the two-players card game "Bataille Corse". Made with vanilla JavaScript in about 2 hours during an exam.
